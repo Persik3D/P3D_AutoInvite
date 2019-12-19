@@ -5,3 +5,5 @@
 - Имеется очередь(спамить по 100 раз не нужно, достаточно одного +) 
 - <del>Раздает ассистов всем в гильдии звания офицер и выше.</del> 
 - Запускается командой /ai или /autoinvite
+
+[Скачать](https://github.com/Persik3D/P3D_GuildToolTip/releases/download/28.05.19/P3D_GuildToolTip.rar)
