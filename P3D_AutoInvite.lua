@@ -44,22 +44,22 @@ function AutoInvite_OnEvent(self,event,...)
 			if GetNumRaidMembers() < GetNumPartyMembers() then
 				ConvertToRaid()
 			end
-			if GetNumRaidMembers() > 0 then
-			local i, j = 1, 1
-				for i = 1, GetNumRaidMembers() do
-					name = UnitName("raid"..i)
-					for j = 1, GetNumGuildMembers() do
-						local gName, _, gRank = GetGuildRosterInfo(j)
-						if gName == name and gRank <= promoteLevel then
-							if not UnitIsRaidOfficer("raid"..i) then
-								PromoteToAssistant("raid"..i)
-							end
-						end
-						j = j + 1
-					end
-					i = i + 1
-				end
-			end
+-- 			if GetNumRaidMembers() > 0 then
+-- 				local i, j = 1, 1
+-- 				for i = 1, GetNumRaidMembers() do
+-- 					name = UnitName("raid"..i)
+-- 					for j = 1, GetNumGuildMembers() do
+-- 						local gName, _, gRank = GetGuildRosterInfo(j)
+-- 						if gName == name and gRank <= promoteLevel then
+-- 							if not UnitIsRaidOfficer("raid"..i) then
+-- 								PromoteToAssistant("raid"..i)
+-- 							end
+-- 						end
+-- 						j = j + 1
+-- 					end
+-- 					i = i + 1
+-- 				end
+-- 			end
 		end
 	end
 end
