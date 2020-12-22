@@ -11,7 +11,7 @@ SlashCmdList["AUTOINVITE"] = AutoInvite_Command
 local queueToInvite = {}
 local lastInviteTime = 0
 local messageForInvite = "+"
-local promoteLevel = 3
+local promoteLevel = -1
 local index = 1
 local autoConvertToRaid = true
 
