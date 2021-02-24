@@ -3,7 +3,6 @@
 - Сам собирает рейд из ги/пм чата.  
 - Кидает инвайты всем кто напишет сообщение содержащее + 
 - Имеется очередь(спамить по 100 раз не нужно, достаточно одного +) 
-- <del>Раздает ассистов всем в гильдии звания офицер и выше.</del> 
 - Запускается командой /ai или /autoinvite
 
-[Скачать](https://github.com/Persik3D/P3D_AutoInvite/releases/download/1.0.0.1/P3D_AutoInvite.rar)
+[Скачать](https://github.com/Persik3D/P3D_AutoInvite/archive/master.zip)
