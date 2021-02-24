@@ -1,5 +1,5 @@
 ## Interface: 30300
-## Title: P3D_AutoInvite
+## Title: AutoInvite
 ## Author: Persik3D
 ## Notes: /ai или /autoinvite для запуска/выключения.
 ## Version: 3.3.5a
