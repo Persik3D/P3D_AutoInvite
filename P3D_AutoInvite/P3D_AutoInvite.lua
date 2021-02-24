@@ -10,10 +10,6 @@ local autoConvertToRaid = true
 local smatch = string.match
 local tinsert = table.insert
 
-SLASH_AUTOINVITE2 = "/autoinvite"
-SLASH_AUTOINVITE1 = "/ai"
-SlashCmdList["AUTOINVITE"] = AutoInvite_Command
-
 local function AutoInvite_Command(msg, editbox)
 	aiEnable = not aiEnable
 	print("AutoInvite:", aiEnable)
@@ -77,4 +73,6 @@ AutoInvite_Frame:RegisterEvent("CHAT_MSG_WHISPER");
 AutoInvite_Frame:RegisterEvent("CHAT_MSG_GUILD");
 AutoInvite_Frame:RegisterEvent("PARTY_MEMBERS_CHANGED");
 
-
+SLASH_AUTOINVITE2 = "/autoinvite"
+SLASH_AUTOINVITE1 = "/ai"
+SlashCmdList["AUTOINVITE"] = AutoInvite_Command
